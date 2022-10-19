@@ -1,0 +1,28 @@
+body {
+    background-color: #E0C9A6;
+}
+h1, h2, h3 {
+    font-family: Brush Script MT,
+        Brush Script Std,
+        cursive, serif;
+}
+
+.letter {
+    text-align: center;
+}
+
+img {
+    filter: sepia(100%);
+}
+
+div, tr, td, p {
+    font-family: Book Antiqua;
+    font-style: italic;
+}
+
+tr, td {
+    text-align: center;
+}
+div {
+    text-size-adjust: 50em;
+}
