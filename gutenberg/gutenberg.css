@@ -1,10 +1,12 @@
 body {
     background-color: #E0C9A6;
 }
-h1, h2, h3 {
-    font-family: Brush Script MT,
-        Brush Script Std,
-        cursive, serif;
+caption {
+    font-family: Perpetua;
+}
+
+h1, h2, h3, .caption {
+    font-family: Perpetua;
 }
 
 .letter {
@@ -23,6 +25,12 @@ div, tr, td, p {
 tr, td {
     text-align: center;
 }
-div {
-    text-size-adjust: 50em;
+
+.contents {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
