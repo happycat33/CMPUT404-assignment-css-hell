@@ -1,0 +1,105 @@
+.header {
+    background-color: #BFEFE9;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+    border-color: black;
+}
+
+.intro, .image {
+    display: inline-block;
+}
+
+.intro {
+    width: 30%;
+    vertical-align: top;
+    margin-right: 10%;
+}
+
+.social {
+    margin-left: 5%;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica;
+}
+
+.sideList {
+    font-size: 100%;
+    margin-left: -5%;
+}
+
+.techList {
+    font-size: 80%;
+    margin-left: 8%;
+}
+
+p, h2 {
+    position: relative;
+    margin-left: 5%;
+    font-size: 150%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list1, .list2 {
+    width: 40%;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 110%;
+}
+
+h3 {
+   margin-left: 8%; 
+}
+
+.vendor, .safewalk {
+    margin-left: 6%;
+}
+
+.vendor, .list, .safewalk {
+    width: 80%;
+}
+
+.info {
+    border-color: black;
+}
+
+ul {
+    margin-left: 8%;
+    font-size: 150%;
+}
+
+.intro {
+    display: inline-block;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+}
+
+table {
+    padding-left: 3%;
+}
+
+.image {
+    display: inline;
+}
+
+img {
+    display: inline;
+    width: 20%;
+    height: 20%;
+}
+
+#image1 {
+    background-image: url("../homepage/goodpics/booth.png");
+    background-repeat: repeat;
+    display: block;
+    height: 1600px;
+    width: 1600px;
+}
