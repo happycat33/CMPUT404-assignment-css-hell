@@ -21,4 +21,27 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Collaboration:
+* rmo1: helped me figure out how to download gutenberg pages (including the images)
+  from site
+* ianta: clarified questions about the assignment, showed me how to add images through
+  css instead of html
+  
+Gutenberg.css changes:
+* change the font family of captions, h1 to h3, div, table rows and columns 
+and paragraphs. As well as text inside the table (table captions, etc.).
+* change background colors of all pages to Old Paper Color.
+* I filter all images in all pages that contain images to that sepia is at
+100% (makes them look more faded and blend better into the background).
+* Aligned all elements with .letter class, as well as table rows/columns and
+any elements with .contents class so that the text is aligned to the left (originally
+center).
+* Made the font style of divs, table rows/column, paragraphs as well as the caption
+("part 1" in Little women) to be italic.  
+* Change the margins of various tables and unique elements (more specifically the elements
+from Little women) so that they were more aligned with the other elements (more center,
+more towards the left, etc.)
 
+Gutenberg code: 
+* all fonts found in gutenberg.css was taken from: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
+* color "Old paper Color" found from: https://www.color-name.com/old-paper.color
