@@ -1,10 +1,86 @@
+header {
+    color: white;
+    font-family: Papyrus;
+}
+
+.info1, .info2, .history1, .history2, .skills1, .skills2, .points1, .points2 {
+    background-position: 1em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.info1, .info2 {
+    background-image: url("badpics/link.png");
+}
+
+.history1 {
+    background-image: url("badpics/safewalk.png");
+    background-size: 400px 400px;
+}
+
+.history2 {
+    background-image: url("badpics/booth.png");
+    background-size: 400px 400px;
+}
+
+.skills1 {
+    background-image: url("badpics/programs.png");
+    background-position: 0.5em;
+}
+
+.skills2 {
+    background-image: url("badpics/talking.png");
+    background-size: 400px 650px;
+}
+
+.points1 {
+    background-image: url("badpics/shy.png");
+}
+
+td {
+    width: 1000px;
+}
+
+h1 {
+    color: yellow;
+    margin-right: 2%;
+}
+
+h2 {
+    font-family: Comic Sans MS;
+    color: red;
+    margin-right: 2%;
+}
+
+h3 {
+    color: lightblue;
+    margin-right: 2%;
+    font-family: Javanese Text;
+}
+
+p {
+    color: pink;
+    text-align: left;
+    align-items: center;
+    margin-left: 3%;
+    font-family: Book Antiqua;
+}
+
+div.container {
+    width: 50px;
+}
+
 body {
-    background-image: url("badBG.png");
+    margin-left: 5%;
+    background-image: url("badpics/badBG.png");
     text-align: center;
 }
 
 ul {
-    display: inline-block;
     text-align: left;
+    color: mediumspringgreen;
+    margin-left: 3%;
+    font-family: Franklin Gothic Medium;
 }
 
