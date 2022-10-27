@@ -24,11 +24,23 @@ header {
     font-family: Papyrus;
 }
 
-.info1, .info2, .history1, .history2, .skills1, .skills2, .points1, .points2 {
+.info1, .info2 {
     background-position: 1em;
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.history1, .history2, .skills1, .skills2{
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position: 0.5em;
+    background-size: 300px 300px;
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
 }
 
 .info1, .info2 {
@@ -37,30 +49,30 @@ header {
 
 .history1 {
     background-image: url("badpics/safewalk.png");
-    background-size: 400px 400px;
+    margin-top: 80%;
+    margin-left: 10%;
+    margin-bottom: 20%;
 }
 
 
 .history2 {
     background-image: url("badpics/booth.png");
-    background-size: 400px 400px;
+    margin-top: 80%;
+    margin-left: 10%;
+    margin-bottom: 20%;
 }
 
 .skills1 {
-    background-image: url("badpics/programs.png");
-    background-position: 0.5em;
-    background-size: 400px 400px;
-    padding: -50%;
-    width: 1px;
+    background-image: url("badpics/programs.png"); 
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 .skills2 {
     background-image: url("badpics/talking.png");
-    background-size: 400px 400px;
-}
-
-.points1 {
-    background-image: url("badpics/shy.png");
+    margin-top: -10%;
+    margin-left: 10%;
 }
 
 td {
@@ -92,10 +104,6 @@ p {
     font-family: Book Antiqua;
 }
 
-div.container {
-    width: 50px;
-}
-
 body {
     margin: 0px;
     padding: 0px;
@@ -114,9 +122,10 @@ ul {
     margin-top: 20%;
     border: 5px solid white;
     display: inline-block;
-    padding-bottom: 80%;
+    padding-bottom: 70%;
 }
 
-.row2 {
-    display: flex;
+td.col1, td.col3 {
+    width: 10%;
+    align-items: center;
 }
