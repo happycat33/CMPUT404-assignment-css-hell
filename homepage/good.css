@@ -4,7 +4,10 @@ h1.header {
     padding-top: 2%;
     padding-bottom: 3%;;
     padding-left: 3%;
-    color: purple;
+    color: whitesmoke;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .intro, .image {
@@ -32,7 +35,6 @@ h1, h2, h3 {
 
 .techList {
     font-size: 80%;
-    margin-left: 8%;
 }
 
 p, h2 {
@@ -40,6 +42,15 @@ p, h2 {
     margin-left: 5%;
     font-size: 150%;
     display: inline-block;
+}
+
+.work {
+    height: 40%;
+}
+
+.historyRow {
+    width: fit-content;
+    display: flex;
 }
 
 p {
@@ -53,11 +64,8 @@ h3 {
 .vendor, .safewalk, .tech, .social {
     margin-left: 3%;
     display: flex;
-    width: 100%;
-}
-
-.vendor, .list, .safewalk {
-    width: 100%;
+    width: auto;
+    left: auto;
 }
 
 h1 {
@@ -71,7 +79,7 @@ ul {
 
 .intro {
     display: inline-block;
-    width: 50%;
+    width: fit-content;
     margin-right: -1%;
 }
 
@@ -81,11 +89,20 @@ body {
     background-color:white;
 }
 
+.container, .history, .skills{
+    width: fit-content;
+    border: 4px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
 img {
-    width: 30%;
-    height: 30%;
+    display: inline-block;
+    width: 40%;
+    height: 40%;
     margin-left: 3%;
-    margin-right: -3%;
 }
 
 #image1 {
@@ -109,14 +126,13 @@ img {
 
 .topnav {
     background-color: black;
-    overflow: hidden;
     color: white;
-    float: left;
     margin-top: -20px;
-    padding-left: 2%;
+    padding-left: 30%;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 95%;
+    width: auto;
+    align-items: center;
 }
 
 .sideBar {
@@ -124,55 +140,69 @@ img {
     padding-right: 2em;
     padding-bottom: 10em;
     border: 5px solid black;
+    background-color: lightgrey;
     width: 80%;
+    font-size: 90%;
 }
 
 
 .vendorImage {
     margin-left: 3%;
     background-image: url("goodpics/booth.png");
-    width: 400px;
-    height: 400px;;
+    width: 60%;
+    padding-top: 1%;
     background-repeat: no-repeat;
 }
 
 .socialText {
     vertical-align: top;    
-    width: 50%;
+    width: fit-content;
 }
 
 .safewalkText {
     vertical-align: top;
-    width: 50%;
+    width: fit-content;
     margin-right: 5%;
 }
 
-.vendorText, .skills{
+.skillsText {
+    width: fit-content;
+    display: inline-block;
+}
+
+.vendorText{
     margin-top: -3%;
+    height: 10%;
     vertical-align: top;
-    width: 43%;
+    width: fit-content;
 }
 
 .safeWalkImage {
     background-image: url("goodpics/safewalk.png");
-    width: 50%;
-    height: 500px;
+    width: 60%;
+    height: auto;
     background-repeat: no-repeat;
 }
 
 .techImage {
+    margin-left: 3%;
     margin-top: 5%;
     background-image: url("goodpics/programs.png");
-    width: 480px;
+    width: 75%;
     height: 500px;
     background-repeat: no-repeat;
 }
 
 .socialImage {
+    margin-top: 10%;
     background-image: url("goodpics/talking.png");
-    width: 50%;
+    width: 90%;
     height: 600px;
     background-repeat: no-repeat;
+}
+
+table {
+    table-layout: fixed;
 }
 
 td.col1 {
@@ -180,11 +210,15 @@ td.col1 {
 }
 
 td.col3 {
-    width: 30%;
-    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 3;
+    width: 20%;
     vertical-align: top;
+    padding-top: 2%;
 }
 
 td.col2 {
-    width: 70%;
+    width: fit-content;
+    padding-right: 2%;
 }
+
