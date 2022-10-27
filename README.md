@@ -22,10 +22,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 Collaboration:
-* rmo1: helped me figure out how to download gutenberg pages (including the images)
-  from site
-* ianta: clarified questions about the assignment, showed me how to add images through
-  css instead of html
+* rmo1: helped me figure out how to download Gutenberg pages (including the images) from the site. Also gave me tips on how to improve my good.html
+* ianta: clarifying questions about the assignment, and showed me how to add images through CSS instead of HTML
+* landberg: gave me suggestions on how to improve my good.html (provided links to sites that might help me, given in readme.md)
+* natnail: Gave me advice on my bad and good html
   
 Gutenberg.css changes:
 * change the font family of captions, h1 to h3, div, table rows and columns 
@@ -54,3 +54,5 @@ Homepage code:
   * https://www.netsolutions.com/insights/most-popular-programming-languages/ (programming.png)
   * https://www.hugo.team/blog/one-on-one-meeting-template-questions (badpics/talking.png)
   * https://cindyfriedman.org/office-hours/ (goodpics/talking.png)
+* adding shadow to text (provided by landberg): https://fonts.google.com/. 
+* Importing custome fonts (provided by landberg):  https://stackoverflow.com/questions/4772906/css-is-it-possible-to-add-a-black-outline-around-each-character-in-text.
