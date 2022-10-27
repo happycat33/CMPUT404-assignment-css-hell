@@ -45,3 +45,12 @@ more towards the left, etc.)
 Gutenberg code: 
 * all fonts found in gutenberg.css was taken from: https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
 * color "Old paper Color" found from: https://www.color-name.com/old-paper.color
+
+Homepage code:
+* Creating a top navbar code came from this source: https://www.w3schools.com/howto/howto_js_topnav.asp
+* The following links how the source urls of most images (all other images not metion are original):
+  * https://danbooru.donmai.us/posts/316966 (link)
+  * https://jaejohns.com/how-to-paint-a-galaxy/ (badBG)
+  * https://www.netsolutions.com/insights/most-popular-programming-languages/ (programming.png)
+  * https://www.hugo.team/blog/one-on-one-meeting-template-questions (badpics/talking.png)
+  * https://cindyfriedman.org/office-hours/ (goodpics/talking.png)

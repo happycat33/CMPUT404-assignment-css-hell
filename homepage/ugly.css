@@ -15,22 +15,33 @@
     background-color: red;
     overflow: hidden;
     color: white;
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 15%;
+}
+.header {
+    text-align: center;
+}
+
+h1.header{
+    margin-right: 10%;
 }
 
 header {
     color: white;
     font-family: Papyrus;
+    padding-left: 8%;
+    text-align: center;
 }
 
 .info1, .info2 {
     background-position: 1em;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    width: 400px;
-    height: 400px;
+    background-size: auto auto;
+    width: 350px;
+    height: 350px;
+    padding-right: 5%;
+    margin-top: 50%;
 }
 
 .history1, .history2, .skills1, .skills2{
@@ -40,39 +51,33 @@ header {
     background-size: 300px 300px;
     width: 400px;
     height: 400px;
-    margin-top: 10%;
 }
 
 .info1, .info2 {
     background-image: url("badpics/link.png");
+    margin-bottom: 50%;
 }
 
 .history1 {
     background-image: url("badpics/safewalk.png");
-    margin-top: 80%;
-    margin-left: 10%;
-    margin-bottom: 20%;
+    margin-top: 60%;
+    display: inline-block;
 }
-
 
 .history2 {
     background-image: url("badpics/booth.png");
-    margin-top: 80%;
-    margin-left: 10%;
-    margin-bottom: 20%;
+    margin-top: 73%;
+    display: inline-block;
 }
 
 .skills1 {
     background-image: url("badpics/programs.png"); 
-    padding-top: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
 
 .skills2 {
     background-image: url("badpics/talking.png");
-    margin-top: -10%;
-    margin-left: 10%;
 }
 
 td {
@@ -81,7 +86,7 @@ td {
 
 h1 {
     color: yellow;
-    margin-right: 2%;
+    text-align: center;
 }
 
 h2 {
@@ -118,14 +123,32 @@ ul {
     font-family: Franklin Gothic Medium;
 }
 
-.sidebar {
-    margin-top: 20%;
+.sideBar {
     border: 5px solid white;
     display: inline-block;
+    padding-right: 3%;
     padding-bottom: 70%;
+    margin-top: 55%;
+    margin-bottom: 40%;
+}
+
+td.col3 {
+    padding-left: 3%;
+    vertical-align: top;
+    padding-right: 3%;
+}
+
+td.col1 {
+    vertical-align: top;
+    padding-left: 3%;
+}
+
+td.col2 {
+    vertical-align: top;
+    width: 70%;
 }
 
 td.col1, td.col3 {
-    width: 10%;
+    width: 15%;
     align-items: center;
 }
