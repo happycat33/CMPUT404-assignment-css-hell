@@ -1,3 +1,24 @@
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav {
+    background-color: red;
+    overflow: hidden;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
 header {
     color: white;
     font-family: Papyrus;
@@ -19,6 +40,7 @@ header {
     background-size: 400px 400px;
 }
 
+
 .history2 {
     background-image: url("badpics/booth.png");
     background-size: 400px 400px;
@@ -27,11 +49,14 @@ header {
 .skills1 {
     background-image: url("badpics/programs.png");
     background-position: 0.5em;
+    background-size: 400px 400px;
+    padding: -50%;
+    width: 1px;
 }
 
 .skills2 {
     background-image: url("badpics/talking.png");
-    background-size: 400px 650px;
+    background-size: 400px 400px;
 }
 
 .points1 {
@@ -39,7 +64,7 @@ header {
 }
 
 td {
-    width: 1000px;
+    width: 500px;
 }
 
 h1 {
@@ -72,7 +97,8 @@ div.container {
 }
 
 body {
-    margin-left: 5%;
+    margin: 0px;
+    padding: 0px;
     background-image: url("badpics/badBG.png");
     text-align: center;
 }
@@ -84,3 +110,13 @@ ul {
     font-family: Franklin Gothic Medium;
 }
 
+.sidebar {
+    margin-top: 20%;
+    border: 5px solid white;
+    display: inline-block;
+    padding-bottom: 80%;
+}
+
+.row2 {
+    display: flex;
+}
