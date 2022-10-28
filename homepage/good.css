@@ -156,7 +156,6 @@ img {
 }
 
 .sideBar {
-    margin-top: 100%;
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 10em;
@@ -235,7 +234,7 @@ td.col3 {
     padding-left: 3;
     width: 30%;
     vertical-align: top;
-    padding-top: 2%;
+    padding-top: 1.5%;
 }
 
 td.col2 {

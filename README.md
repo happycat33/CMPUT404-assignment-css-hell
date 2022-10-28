@@ -23,9 +23,9 @@ Code is licensed under the Apache 2.0 license.
 
 Collaboration:
 * rmo1: helped me figure out how to download Gutenberg pages (including the images) from the site. Also gave me tips on how to improve my good.html
-* ianta: clarifying questions about the assignment, and showed me how to add images through CSS instead of HTML
-* landberg: gave me suggestions on how to improve my good.html (provided links to sites that might help me, given in readme.md)
-* natnail: Gave me advice on my bad and good html
+* ianta: clarifying questions about the assignment, and showed me how to add images through CSS instead of HTML.
+* landberg: gave me suggestions on how to improve my good.html (provided links to sites that might help me, given in readme.md).
+* natnail: Gave me advice on my bad and good html.
   
 Gutenberg.css changes:
 * change the font family of captions, h1 to h3, div, table rows and columns 
